@@ -1,71 +1,104 @@
-# Getting Started with Create React App
+### Mục lục (Table of Contents)
+1. [Giới thiệu (Introduction)](#giới-thiệu)
+2. [Cài đặt (Installation)](#cài-đặt)
+3. [Sử dụng (Usage)](#sử-dụng)
+4. [Cấu trúc thư mục (Folder Structure)](#cấu-trúc-thư-mục)
+5. [Đóng góp (Contributing)](#đóng-góp)
+6. [Giấy phép (License)](#giấy-phép)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## 1. Giới thiệu (Introduction)
 
-In the project directory, you can run:
+### Tiếng Việt:
+Dự án này sử dụng **React Leaflet** để hiển thị bản đồ của Việt Nam, trong đó bao gồm việc hiển thị tên hai quần đảo quan trọng: **Quần đảo Hoàng Sa** và **Quần đảo Trường Sa**.
 
-### `npm start`
+### English:
+This project utilizes **React Leaflet** to display a map of Vietnam, with an emphasis on displaying the names of two important archipelagos: **Hoàng Sa Archipelago** and **Trường Sa Archipelago**.
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 2. Cài đặt (Installation)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Tiếng Việt:
+Để cài đặt dự án, làm theo các bước sau:
 
-### `npm test`
+1. Clone repo về máy tính của bạn:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git](https://github.com/devtrantrongtri/ReactJs-GeoJsonVietNamwithHoangSaTruongSa.git
+   ```
+   
+2. Cài đặt các thư viện cần thiết:
+   ```bash
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Chạy dự án:
+   ```bash
+   npm start
+   ```
 
-### `npm run build`
+### English:
+To install the project, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repo to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git](https://github.com/devtrantrongtri/ReactJs-GeoJsonVietNamwithHoangSaTruongSa.git
+   ```
+   
+2. Install necessary dependencies:
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Run the project:
+   ```bash
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 3. Sử dụng (Usage)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Tiếng Việt:
+Khi chạy dự án, bản đồ Việt Nam sẽ được hiển thị với tên của **Quần đảo Hoàng Sa** và **Quần đảo Trường Sa** . Bạn có thể tương tác với bản đồ, vẽ tọa độ và xem thông tin chi tiết các tỉnh.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### English:
+When the project is running, a map of Vietnam will be displayed, showing the names of **Hoàng Sa Archipelago** and **Trường Sa Archipelago**. You can interact with the map, draw coordinates, and view details of provinces.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 4. Cấu trúc thư mục (Folder Structure)
 
-## Learn More
+```
+your-repo-name/
+│
+├── public/
+├── src/
+│   ├── App.js
+│   ├── MapComponent.jsx
+│   ├── diaphantinhenglish.geojson
+│   └── ...
+├── package.json
+├── README.md
+└── ...
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 5. Đóng góp (Contributing)
 
-### Code Splitting
+### Tiếng Việt:
+Nếu bạn muốn đóng góp cho dự án, vui lòng gửi pull request hoặc mở issue. Mọi đóng góp đều được hoan nghênh.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### English:
+If you want to contribute to the project, feel free to submit a pull request or open an issue. All contributions are welcome.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 6. Giấy phép (License)
 
-### Making a Progressive Web App
+### Tiếng Việt:
+Dự án này sử dụng giấy phép MIT. Xem chi tiết trong file [LICENSE](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# ReactJs-GeoJsonVietNamwithHoangSaTruongSa
+### English:
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
