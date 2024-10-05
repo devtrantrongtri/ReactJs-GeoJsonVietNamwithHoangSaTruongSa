@@ -24,7 +24,7 @@ This project utilizes **React Leaflet** to display a map of Vietnam, with an emp
 
 1. Clone repo về máy tính của bạn:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git](https://github.com/devtrantrongtri/ReactJs-GeoJsonVietNamwithHoangSaTruongSa.git
+   git clone https://github.com/devtrantrongtri/ReactJs-GeoJsonVietNamwithHoangSaTruongSa.git
    ```
    
 2. Cài đặt các thư viện cần thiết:
@@ -42,7 +42,7 @@ To install the project, follow these steps:
 
 1. Clone the repo to your local machine:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git](https://github.com/devtrantrongtri/ReactJs-GeoJsonVietNamwithHoangSaTruongSa.git
+   git clone https://github.com/devtrantrongtri/ReactJs-GeoJsonVietNamwithHoangSaTruongSa.git
    ```
    
 2. Install necessary dependencies:
