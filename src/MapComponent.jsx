@@ -57,7 +57,7 @@ const MapComponent = () => {
 // Hàm để tô màu tỉnh dựa trên điều kiện
 const styleFeature = (feature) => {
   return {
-    fillColor: feature.properties.Name === selectedProvince ? 'red' : 'green', // Tô màu đỏ nếu là tỉnh được chọn, màu xanh cho các tỉnh khác
+    fillColor: feature.properties.Name === selectedProvince ? 'blue' : 'green', // Tô màu đỏ nếu là tỉnh được chọn, màu xanh cho các tỉnh khác
     weight: 2,
     opacity: 1,
     color: 'white',
@@ -74,18 +74,18 @@ const styleFeature = (feature) => {
         const coordinates = feature.geometry.coordinates;
 
         // Kiểm tra nếu là Quần đảo Hoàng Sa hoặc Trường Sa
-        if (name === 'Quần đảo Hoàng Sa' || name === 'Quần đảo Trường Sa') {
-          const centroid = calculateCentroid(coordinates); // Lấy trung tâm của toàn bộ Polygon
-          const location = { name, type: disasterType, coordinates: centroid };
+        // if (name === 'Quần đảo Hoàng Sa' || name === 'Quần đảo Trường Sa') {
+        //   const centroid = calculateCentroid(coordinates); // Lấy trung tâm của toàn bộ Polygon
+        //   const location = { name, type: disasterType, coordinates: centroid };
 
-          if (!disasterExists(name, disasterType)) {
-            console.log('Thêm thiên tai:', location);
-            return location;
-          } else {
-            console.log('Thiên tai đã tồn tại ở:', name);
-            return null;
-          }
-        }
+        //   if (!disasterExists(name, disasterType)) {
+        //     console.log('Thêm thiên tai:', location);
+        //     return location;
+        //   } else {
+        //     console.log('Thiên tai đã tồn tại ở:', name);
+        //     return null;
+        //   }
+        // }
 
         // Kiểm tra các tỉnh còn lại
         if (coordinates && Array.isArray(coordinates)) {
