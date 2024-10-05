@@ -1,0 +1,19 @@
+.map-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 300px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #ddd;
+  }
+  
+  .sidebar h2 {
+    margin-top: 0;
+  }
+  
+  .map-container > .leaflet-container {
+    flex: 1;
+  }
+  
